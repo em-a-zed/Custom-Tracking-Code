@@ -22,7 +22,7 @@ function TFlyTrack()
 
     %%%%%%%%%DEFINE YOUR VIDEO CAMERA HERE%%%%%%%%%%%%%%%%%%%%%%%%%%
 %     vid = videoinput('pointgrey',1,'F7_Mono16_1288x964_Mode0'); % This is for the PointGrey camera
-    vid = videoinput('macvideo'); % This is for the inbuit camera on a macbook
+    vid = videoinput('macvideo'); % This is for the inbuilt camera on a macbook
     vid.FramesPerTrigger = 1;
     % % %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
 		
