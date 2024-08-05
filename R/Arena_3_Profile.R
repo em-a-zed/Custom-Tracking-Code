@@ -1,7 +1,4 @@
-h <- 3.5 ##millimeters (height of arena from floor to ceiling)
-radius <- 35 ## arena radius in millimeters
-theta <- 11*pi/180  ## slope of vertical wall of arena 
-                    ##11 degrees converted to radians #################################################
+#################################################
 #### A FUNCTION TO GENERATE AN ARENA PROFILE 
 #################################################
 Arena <- function(h=3.5, radius=30){
