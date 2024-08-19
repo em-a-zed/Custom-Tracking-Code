@@ -156,7 +156,6 @@ if __name__ == '__main__' :
 
     #####READ IN FRAMES IN SEPARATE THREAD
     #####TO SPEED UP TRACKING...
-
     # start the file video stream thread and allow the buffer to
     # start to fill
     print("[INFO] starting video file thread...")
@@ -237,8 +236,7 @@ if __name__ == '__main__' :
         # Minor and major axis
         E['w'] = np.sqrt(8*(a+c-np.sqrt(b**2+(a-c)**2)))/2
         E['l'] = np.sqrt(8*(a+c+np.sqrt(b**2+(a-c)**2)))/2
-
-        #####THIS ALL WORKS, JUST NOT USING IT FOR THE MOMENT
+     
         #######################################################
         # Ellipse focal points
         d = np.sqrt(E['l'] ** 2 - E['w'] ** 2)
